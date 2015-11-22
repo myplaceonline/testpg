@@ -23,19 +23,24 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-installLocation" value="auto" />
 
+    <icon src="icon.png" />
+
+    <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-splashscreen-3" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
 
-    <access origin="*" />
+    <!-- https://www.npmjs.com/package/cordova-plugin-whitelist -->
+    <plugin name="cordova-plugin-whitelist" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
-    <icon src="icon.png" />
+    <access origin="http://*/*" />
+    <access origin="https://*/*" />
 
     <platform name="android">
       <icon qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
