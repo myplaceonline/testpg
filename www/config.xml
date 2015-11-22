@@ -50,6 +50,7 @@
       <allow-intent href="market:*" />
     </platform>
     
+    <!--
     <platform name="ios">
       <icon height="57" src="www/res/icon/ios/icon-57.png" width="57" />
       <icon height="72" src="www/res/icon/ios/icon-72.png" width="72" />
@@ -69,4 +70,5 @@
       <icon gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
       <splash src="www/res/screen/windows-phone/screen-portrait.jpg" />
     </platform>
+    -->
 </widget>
