@@ -8,21 +8,14 @@
         Myplaceonline.com
     </author>
     <content src="index.html" />
+    
+    <!-- https://github.com/phonegap-build/docs-en/blob/master/configuring/preferences.md -->
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="orientation" value="default" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
-    <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="disable-cursor" value="false" />
-    <preference name="android-installLocation" value="auto" />
-    
     <preference name="permissions" value="none" />
 
     <icon src="icon.png" />
@@ -45,6 +38,7 @@
     <access origin="https://*/*" />
 
     <platform name="android">
+      <preference name="android-installLocation" value="auto" />
       <icon qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
       <icon qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
       <icon qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
@@ -58,6 +52,10 @@
     
     <!--
     <platform name="ios">
+      <preference name="target-device" value="universal" />
+      <preference name="prerendered-icon" value="true" />
+      <preference name="detect-data-types" value="true" />
+      <preference name="exit-on-suspend" value="false" />
       <icon height="57" src="www/res/icon/ios/icon-57.png" width="57" />
       <icon height="72" src="www/res/icon/ios/icon-72.png" width="72" />
       <icon height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
