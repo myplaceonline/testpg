@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.myplaceonline.testpg" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
-  <name>Test Phonegap Application</name>
+  <name>Test Phonegap</name>
   <description>myplaceonline is a joy and meaning maximizer. https://myplaceonline.com/</description>
   <author email="contact@myplaceonline.com" href="https://myplaceonline.com/">contact@myplaceonline.com</author>
   
