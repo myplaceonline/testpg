@@ -36,6 +36,8 @@
   <allow-intent href="geo:*" />
   <access origin="*" />
   
+  https://forums.adobe.com/message/8851184#8851184
+  
   <platform name="android">
     <preference name="android-installLocation" value="auto" />
     <preference name="android-minSdkVersion" value="16" />
