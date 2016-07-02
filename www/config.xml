@@ -13,7 +13,7 @@
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-universal-clipboard" />
   <plugin name="cordova-plugin-geolocation" />
-  <plugin name="fake" />
+  <plugin name="fakefsdafasdfsdasd" />
   
   <!-- https://github.com/phonegap-build/docs-en/blob/master/configuring/preferences.md -->
   <!-- https://build.phonegap.com/current-support -->
